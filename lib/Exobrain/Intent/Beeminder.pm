@@ -3,7 +3,7 @@ use Moose;
 use Method::Signatures;
 
 # ABSTRACT: Exobrain intent packet for sending data to Beeminder.
-our $VERSION = '1.00'; # VERSION
+our $VERSION = '1.05'; # VERSION
 
 
 method summary() {
@@ -34,7 +34,7 @@ Exobrain::Intent::Beeminder - Exobrain intent packet for sending data to Beemind
 
 =head1 VERSION
 
-version 1.00
+version 1.05
 
 =head1 SYNOPSIS
 

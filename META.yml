@@ -39,4 +39,4 @@ requires:
 resources:
   bugtracker: https://github.com/pjf/exobrain-beeminder
   repository: git://github.com/pjf/exobrain-beeminder
-version: 1.00
+version: 1.05

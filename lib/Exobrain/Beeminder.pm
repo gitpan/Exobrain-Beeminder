@@ -4,7 +4,7 @@ use Moose;
 use v5.10.0;
 
 # ABSTRACT: Beeminder components for exobrain
-our $VERSION = '1.00'; # VERSION
+our $VERSION = '1.05'; # VERSION
 
 
 with 'Exobrain::Component';
@@ -91,7 +91,7 @@ Exobrain::Beeminder - Beeminder components for exobrain
 
 =head1 VERSION
 
-version 1.00
+version 1.05
 
 =head1 SYNOPSIS
 
