@@ -44,7 +44,8 @@
             "Try::Tiny" : "0",
             "WebService::Beeminder" : "0",
             "autodie" : "0",
-            "perl" : "v5.10.0"
+            "feature" : "0",
+            "perl" : "5.010"
          }
       },
       "test" : {
@@ -69,6 +70,6 @@
          "web" : "https://github.com/pjf/exobrain-beeminder"
       }
    },
-   "version" : "1.05"
+   "version" : "1.06"
 }
 

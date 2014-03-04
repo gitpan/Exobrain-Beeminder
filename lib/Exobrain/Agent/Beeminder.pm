@@ -1,7 +1,7 @@
 package Exobrain::Agent::Beeminder;
 use Moose::Role;
 
-our $VERSION = '1.05'; # VERSION
+our $VERSION = '1.06'; # VERSION
 # ABSTRACT: Provide common functions for Beeminder agents.
 
 with 'Exobrain::Agent';
@@ -20,7 +20,7 @@ Exobrain::Agent::Beeminder - Provide common functions for Beeminder agents.
 
 =head1 VERSION
 
-version 1.05
+version 1.06
 
 =for Pod::Coverage component_name
 

@@ -5,7 +5,7 @@ use Moose;
 use Method::Signatures;
 
 # ABSTRACT: Send a notification every time a bmndr data point is updated
-our $VERSION = '1.05'; # VERSION
+our $VERSION = '1.06'; # VERSION
 
 with 'Exobrain::Agent::Run';
 
@@ -30,7 +30,7 @@ Exobrain::Agent::Beeminder::Notify - Send a notification every time a bmndr data
 
 =head1 VERSION
 
-version 1.05
+version 1.06
 
 =head1 AUTHOR
 

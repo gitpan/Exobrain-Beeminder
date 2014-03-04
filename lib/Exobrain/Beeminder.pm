@@ -1,10 +1,10 @@
 package Exobrain::Beeminder;
 use Exobrain::Config;
 use Moose;
-use v5.10.0;
+use feature qw(say);    # Needed to make 5.10 happy.
 
 # ABSTRACT: Beeminder components for exobrain
-our $VERSION = '1.05'; # VERSION
+our $VERSION = '1.06'; # VERSION
 
 
 with 'Exobrain::Component';
@@ -91,7 +91,7 @@ Exobrain::Beeminder - Beeminder components for exobrain
 
 =head1 VERSION
 
-version 1.05
+version 1.06
 
 =head1 SYNOPSIS
 

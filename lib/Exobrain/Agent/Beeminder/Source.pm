@@ -9,7 +9,7 @@ with 'Exobrain::Agent::Beeminder';
 with 'Exobrain::Agent::Run';
 
 # ABSTRACT: Turn Beeminder callbacks into exobrain measurements
-our $VERSION = '1.05'; # VERSION
+our $VERSION = '1.06'; # VERSION
 
 
 method run() {
@@ -65,7 +65,7 @@ Exobrain::Agent::Beeminder::Source - Turn Beeminder callbacks into exobrain meas
 
 =head1 VERSION
 
-version 1.05
+version 1.06
 
 =begin example
 

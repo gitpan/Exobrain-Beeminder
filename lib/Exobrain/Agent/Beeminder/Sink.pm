@@ -7,7 +7,7 @@ with 'Exobrain::Agent::Beeminder';
 with 'Exobrain::Agent::Run';
 
 # ABSTRACT: Send exobrain intents to Beeminder
-our $VERSION = '1.05'; # VERSION
+our $VERSION = '1.06'; # VERSION
 
 method run() {
     my $bee = WebService::Beeminder->new(
@@ -39,7 +39,7 @@ Exobrain::Agent::Beeminder::Sink - Send exobrain intents to Beeminder
 
 =head1 VERSION
 
-version 1.05
+version 1.06
 
 =head1 AUTHOR
 

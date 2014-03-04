@@ -14,7 +14,8 @@ requires "Moose::Role" => "0";
 requires "Try::Tiny" => "0";
 requires "WebService::Beeminder" => "0";
 requires "autodie" => "0";
-requires "perl" => "v5.10.0";
+requires "feature" => "0";
+requires "perl" => "5.010";
 
 on 'test' => sub {
   requires "Exobrain::Test" => "0";

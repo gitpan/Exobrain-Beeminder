@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-use 5.010000;
+use 5.010;
 
 use ExtUtils::MakeMaker 6.30;
 
@@ -36,7 +36,8 @@ my %WriteMakefileArgs = (
     "Moose::Role" => 0,
     "Try::Tiny" => 0,
     "WebService::Beeminder" => 0,
-    "autodie" => 0
+    "autodie" => 0,
+    "feature" => 0
   },
   "TEST_REQUIRES" => {
     "Exobrain::Test" => 0,
@@ -46,7 +47,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "1.05",
+  "VERSION" => "1.06",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -74,6 +75,7 @@ my %FallbackPrereqs = (
   "Try::Tiny" => 0,
   "WebService::Beeminder" => 0,
   "autodie" => 0,
+  "feature" => 0,
   "strict" => 0,
   "warnings" => 0
 );
